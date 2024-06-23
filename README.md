@@ -1,7 +1,3 @@
-Certainly! Here's a simple yet comprehensive README.md for your file upload project using MERN stack:
-
----
-
 # File Upload App
 
 This application allows users to upload files, storing file metadata in a MongoDB database, and retrieving uploaded file information.

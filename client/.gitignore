@@ -7,10 +7,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Node modules and build outputs
+**/node_modules
 dist
 dist-ssr
-*.local
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Exclude at all levels within client and server
+**/client/node_modules
+**/client/build
+**/client/dist
+
+**/server/node_modules
+**/server/logs
